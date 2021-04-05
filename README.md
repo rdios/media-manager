@@ -10,11 +10,9 @@ Media manager for `local` disk.
 ## Installation
 
 ```shell
-// For laravel-admin 1.x
-composer require rdios/media-manager:1.x -vvv
+// 针对laravle-admin的media-manager的安装包做出部分调整，目前支持laravel-admin 1.x版本
 
-// For laravel-admin 2.x
-composer require laravel-admin-ext/media-manager:2.x -vvv
+composer require rdios/media-manager
 
 php artisan admin:import media-manager
 ```
